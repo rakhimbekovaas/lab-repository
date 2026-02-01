@@ -31,7 +31,7 @@ cd Lab_1.1/Task_1
 
 ### Version 2 - Counter App (Task 2)
 ```bash
-# Navigate to Task 2
+# Navigate to Lab_1.1/Task_2
 cd Lab_1.1/Task_2/task2_declarative
 
 # Install dependencies (first time only)
