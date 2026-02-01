@@ -30,6 +30,9 @@ npm install # Install dependencies
 
 To run the application in development mode:
 
+# Navigate to: 
+Lab_1.2/Task_1/my-react-app
+
 ```bash
 npm run dev
 ```

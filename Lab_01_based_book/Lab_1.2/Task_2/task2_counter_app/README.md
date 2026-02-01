@@ -1,16 +1,63 @@
-# React + Vite
+# My React App - Task 1: Project Setup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Information
 
-Currently, two official plugins are available:
+This React application was created using **Vite** as the build tool.
+## Environment Details
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Node Version:** v24.13.0
+- **npm Version:** 11.6.2
+- **React Version:** 19.2.0
+- **Vite Version:** 7.2.5
+- **Build Tool:** Vite
 
-## React Compiler
+## Setup Commands Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The following exact commands were used to create and set up this project:
 
-## Expanding the ESLint configuration
+```bash
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm create vite@latest task2_counter_app -- --template react # Create the project using Vite with React template
+
+cd task2_counter_app # Navigate to project directory
+
+npm install # Install dependencies
+```
+
+## How to Run the Application
+
+### Development Mode
+
+To run the application in development mode:
+
+# Navigate to: 
+Lab_1.2/Task_2/task2_couter_app
+
+```bash
+npm run dev
+```
+
+The application will start on `http://localhost:5173/` (default Vite port).
+
+## Project Structure
+
+```
+my-app/
+├── node_modules/          # Project dependencies
+├── public/                # Static assets
+│   └── vite.svg          # Vite logo
+├── src/                   # Source code
+│   ├── assets/           # Images and other assets
+│   ├── App.css           # App component styles
+│   ├── App.jsx           # Main App component
+│   ├── index.css         # Global styles
+│   └── main.jsx          # Application entry point
+├── .gitignore            # Git ignore rules
+├── eslint.config.js      # ESLint configuration
+├── index.html            # HTML template
+├── package.json          # Project dependencies and scripts
+├── package-lock.json     # Locked dependency versions
+├── README.md             # This file
+└── vite.config.js        # Vite configuration
+```
+
